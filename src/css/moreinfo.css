@@ -1,0 +1,35 @@
+.moreinfo h2{
+    /* color: rgb(37, 115, 233); */
+    color: rgb(146, 198, 212);
+    text-shadow: 2px 0 #0d0c0c, -2px 0 #605b5b, 0 2px #bbaaaa, 0 -2px #8adedd,
+               1px 1px #557d80, -1px -1px #1a747c, 1px -1px #fff, -1px 1px #fff;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+.moreinfo {
+    /* background-image: linear-gradient(to top left, rgba(31, 31, 235, 0),) ; */
+    background: linear-gradient(45deg, #dee3de, #697296, #6b6b6e);
+    background-size: 300% 300%;
+    animation: gradientAnimation 6s ease infinite; 
+  }
+
+
+#testimonial{
+    height: 40vh;
+}  
+
+.info:hover{
+    scale: 1.1
+}
+
+
+#test_name{
+    text-decoration: none;
+    margin-left: '200px';
+    width: 100%;
+}

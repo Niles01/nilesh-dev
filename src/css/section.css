@@ -1,0 +1,75 @@
+#hover {
+  color: rgb(14, 71, 128);
+}
+
+#hover:hover {
+  color: white;
+  background-color: rgb(80, 164, 249);
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.sect {
+  padding-block: 70px;
+  background: linear-gradient(45deg, #85e4de00, #6b8aff, #40727c);
+  background-size: 300% 300%;
+  animation: gradientAnimation 3s ease infinite;
+  transition: color 0.5s ease-in-out;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 250px;
+  height: 250px;
+  box-shadow: 3px 4px 15px gray;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+}
+
+
+.surname {
+  font-size: 70px;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -1px #fff,
+    0.5px 0.5px #fff, -0.5px -0.5px #fff, 0.5px -0.5px #fff, -0.5px 0.5px #fff;
+  color: rgb(27, 154, 171);
+}
+
+/* Slant Reflection */
+.reflection {
+  width: "100px";
+  height: "100px";
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.3) 20%, transparent 50%);
+  position: "absolute";
+  top: "50%";
+  left: "50%";
+  transform: "translate(-50%, -50%)"
+}
+
+.auth_name {
+  font-size: 90px;
+  color: dodgerblue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
+    0.5px 0.5px #fff, -0.5px -0.5px #fff, 0.5px -0.5px #fff, -0.5px 0.5px #fff;
+}
+
+.resumebtn {
+  border-radius: 60px;
+  background: linear-gradient(45deg, #b4d7d500, #c8ccdb, #40727c);
+  background-size: 300% 300%;
+  animation: gradientAnimation 4s ease infinite;
+  transition: color 0.5s ease-in-out;
+}

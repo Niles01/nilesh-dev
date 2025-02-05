@@ -1,0 +1,13 @@
+/* #im:hover , #im.focus{
+    width: '100px';
+    background-color: blue
+} */
+#im {
+    transition: property duration timing-function delay initial inherit;
+}
+
+/* //This property is used to change the properties of the image on hover */
+#im:hover {
+    transform: translateY(-3px); /* Lift the button */
+    transition: all 0.3s ease-in-out;
+}

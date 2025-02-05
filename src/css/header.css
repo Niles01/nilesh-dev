@@ -1,0 +1,21 @@
+.name{
+    color: dodgerblue;
+}
+
+.status{
+    color: orange;
+}
+
+.navlink:hover{
+    .name{color: orange;};
+    .status{color: dodgerblue;}
+}
+
+.sidebtn{
+    color: black;
+}
+
+.sidebtn:hover{
+    color:rgb(148, 192, 194);
+    text-shadow:blue;
+}
